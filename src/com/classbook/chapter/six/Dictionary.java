@@ -25,4 +25,9 @@ public class Dictionary extends Book {
     public void setDefinitions(int definitions) {
         this.definitions = definitions;
     }
+
+    @Override
+    public String getBookId(){
+        return "D001" + super.getBookId();
+    }
 }
