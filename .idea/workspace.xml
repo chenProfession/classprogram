@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c723f467-c9d5-41e5-a111-2cf626c2ddd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/DefaultValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/six/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/six/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/BookManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/six/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/Dictionary.java" afterDir="false" />
     </list>
@@ -52,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571809417800</updated>
-      <workItem from="1571809421680" duration="1672000" />
+      <workItem from="1571809421680" duration="4285000" />
     </task>
     <servers />
   </component>

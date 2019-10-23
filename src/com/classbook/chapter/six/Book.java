@@ -21,7 +21,7 @@ public class Book {
     }
 
     public String getBookId() {
-        return bookId;
+        return DefaultValue.BOOK_SKU + bookId;
     }
 
     public void setBookId(String bookId) {

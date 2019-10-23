@@ -9,11 +9,18 @@ package com.classbook.chapter.six;
 public class BookManager {
     public static void main(String[] args){
         Dictionary dictionary = new Dictionary("INB001","CookBook",90,9);
-        //子类访问父类的 protext 成员变量
+        /** 子类访问父类的 protect 成员变量 **/
         int pages = dictionary.pages;
-        //类型转换 int 转 String
+
+        /** 类型转换int 转 String **/
         display(String.valueOf(pages));
         display(dictionary.getBookName());
+
+        /** 多态性，向上类型转换,以及动态绑定 **/
+        Book book = new Book("INB02","James",98);
+        Book bookDictionary = new Dictionary(book,11);
+        display(book.getBookId());
+        display(bookDictionary.getBookId());
     }
 
     /**

@@ -9,7 +9,11 @@ package com.classbook.chapter.six;
 public class Dictionary extends Book {
     private int definitions;
 
-    public Dictionary(int definitions) {
+    public Dictionary() {
+    }
+
+    public Dictionary(Book book,int definitions){
+        super(book.getBookId(),book.getBookName(),book.getPages());
         this.definitions = definitions;
     }
 
@@ -28,6 +32,6 @@ public class Dictionary extends Book {
 
     @Override
     public String getBookId(){
-        return "D001" + super.getBookId();
+        return DefaultValue.DICTIONARY_SKU + super.getBookId();
     }
 }
