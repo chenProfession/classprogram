@@ -2,7 +2,7 @@ package com.classbook.chapter.six.innerclass;
 
 /**
  * @program: classprogram
- * @Description:
+ * @Description: 通过外部类创建内部类对象
  * @author: Mr.Cheng
  * @date: 2019/10/28 1:44 下午
  */
