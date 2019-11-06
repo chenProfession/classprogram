@@ -1,6 +1,8 @@
 package com.classbook.chapter.seven;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * @program: classprogram
@@ -9,6 +11,7 @@ import javax.swing.*;
  * @date: 2019/11/6 1:00 下午
  */
 public class LoginForm {
+
     public static void main(String[] args) {
         // 创建 JFrame 实例
         JFrame frame = new JFrame("Login Example");
@@ -33,6 +36,8 @@ public class LoginForm {
     }
 
     private static void placeComponents(JPanel panel) {
+
+        final String COMMAND_LOGIN = "LOGIN";
 
         /* 布局部分我们这边不多做介绍
          * 这边设置布局为 null
@@ -71,6 +76,26 @@ public class LoginForm {
         // 创建登录按钮
         JButton loginButton = new JButton("login");
         loginButton.setBounds(10, 80, 80, 25);
+        loginButton.setActionCommand(COMMAND_LOGIN);
         panel.add(loginButton);
+
+        ActionListener actionListener = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 获取动作命令
+                String command = e.getActionCommand();
+
+                // 根据动作命令区分被点击的按钮
+                if (COMMAND_LOGIN.equals(command)) {
+                    System.out.println("OK 按钮被点击");
+                    JOptionPane.showMessageDialog(null, "标题【出错啦】", "年龄请输入数字", JOptionPane.ERROR_MESSAGE);
+
+                } else {
+                    System.out.println("Cancel 按钮被点击");
+                }
+            }
+        };
+
+        loginButton.addActionListener(actionListener);
     }
 }
