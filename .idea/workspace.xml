@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c723f467-c9d5-41e5-a111-2cf626c2ddd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/DefaultValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/innerclass/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/six/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/six/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/BookManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/six/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/Dictionary.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +51,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571809417800</updated>
-      <workItem from="1571809421680" duration="4285000" />
+      <workItem from="1571809421680" duration="4837000" />
+      <workItem from="1572238928571" duration="3120000" />
     </task>
     <servers />
   </component>
@@ -65,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
