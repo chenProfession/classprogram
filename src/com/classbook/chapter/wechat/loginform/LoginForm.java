@@ -1,4 +1,4 @@
-package com.classbook.chapter.loginform;
+package com.classbook.chapter.wechat.loginform;
 
 import javax.swing.*;
 
@@ -16,10 +16,11 @@ public class LoginForm extends JFrame {
     private JLabel passwordLabel;
     private JPasswordField passwordText;
     private JButton loginButton;
+    private JButton registerButton;
 
     public LoginForm(){
         setTitle("Login Form");
-        setSize(350, 180);
+        setSize(280, 160);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         panelLogin = new JPanel();
@@ -42,8 +43,12 @@ public class LoginForm extends JFrame {
         panelLogin.add(passwordText);
 
         loginButton = new JButton("login");
-        loginButton.setBounds(10, 80, 80, 25);
+        loginButton.setBounds(10, 100, 80, 25);
         panelLogin.add(loginButton);
+
+        registerButton = new JButton("register");
+        registerButton.setBounds(100, 100, 80, 25);
+        panelLogin.add(registerButton);
 
         add(panelLogin);
     }

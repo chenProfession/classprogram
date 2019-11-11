@@ -1,4 +1,6 @@
-package com.classbook.chapter.loginform;
+package com.classbook.chapter.wechat;
+
+import com.classbook.chapter.wechat.loginform.LoginForm;
 
 /**
  * @program: classprogram
@@ -6,7 +8,7 @@ package com.classbook.chapter.loginform;
  * @author: Mr.Cheng
  * @date: 2019/11/6 6:15 下午
  */
-public class WeChatForm {
+public class Manage {
     public static void main(String[] args){
         LoginForm loginForm = new LoginForm();
         loginForm.setFrameLoginVisible(true);
