@@ -1,6 +1,11 @@
 package com.classbook.chapter.wechat.loginform;
 
+import com.classbook.chapter.wechat.registerform.RegisterForm;
+import com.classbook.chapter.wechat.wechatform.WeChatForm;
+
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * @program: classprogram
@@ -51,6 +56,24 @@ public class LoginForm extends JFrame {
         panelLogin.add(registerButton);
 
         add(panelLogin);
+
+        loginButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                WeChatForm weChatForm = new WeChatForm();
+                weChatForm.setFrameWeChatVisible(true);
+                dispose();
+            }
+        });
+
+        registerButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                RegisterForm registerForm = new RegisterForm();
+                registerForm.setFrameRegisterVisible(true);
+                setFrameLoginVisible(false);
+            }
+        });
     }
 
     /**

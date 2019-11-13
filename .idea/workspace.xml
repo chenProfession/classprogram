@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c723f467-c9d5-41e5-a111-2cf626c2ddd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/classbook/chapter/six/innerclass/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/wechat/loginform/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/wechat/loginform/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/wechat/registerform/RegisterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/wechat/registerform/RegisterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/classbook/chapter/wechat/wechatform/WeChatForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classbook/chapter/wechat/wechatform/WeChatForm.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="199" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -41,6 +44,40 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.Manage">
+    <configuration name="LoginForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.classbook.chapter.seven.LoginForm" />
+      <module name="classprogram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.classbook.chapter.seven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.classbook.chapter.wechat.Manage" />
+      <module name="classprogram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.classbook.chapter.wechat.registerform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Manage" />
+        <item itemvalue="Application.LoginForm" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,6 +90,11 @@
       <updated>1571809417800</updated>
       <workItem from="1571809421680" duration="4837000" />
       <workItem from="1572238928571" duration="3120000" />
+      <workItem from="1572429068421" duration="228000" />
+      <workItem from="1573016381446" duration="6432000" />
+      <workItem from="1573448461084" duration="2005000" />
+      <workItem from="1573464572798" duration="1910000" />
+      <workItem from="1573620102209" duration="2087000" />
     </task>
     <servers />
   </component>
