@@ -2,6 +2,7 @@ package com.classbook.chapter.wechat;
 
 import com.classbook.chapter.wechat.loginform.LoginForm;
 
+
 /**
  * @program: classprogram
  * @Description:
@@ -12,5 +13,6 @@ public class Manage {
     public static void main(String[] args){
         LoginForm loginForm = new LoginForm();
         loginForm.setFrameLoginVisible(true);
+
     }
 }

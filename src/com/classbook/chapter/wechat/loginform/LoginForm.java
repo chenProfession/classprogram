@@ -50,30 +50,14 @@ public class LoginForm extends JFrame {
         loginButton = new JButton("login");
         loginButton.setBounds(10, 100, 80, 25);
         panelLogin.add(loginButton);
+        loginButton.addActionListener(new LoginEventListener());
 
         registerButton = new JButton("register");
         registerButton.setBounds(100, 100, 80, 25);
         panelLogin.add(registerButton);
+        registerButton.addActionListener(new RegisterEventListener());
 
         add(panelLogin);
-
-        loginButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                WeChatForm weChatForm = new WeChatForm();
-                weChatForm.setFrameWeChatVisible(true);
-                dispose();
-            }
-        });
-
-        registerButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                RegisterForm registerForm = new RegisterForm();
-                registerForm.setFrameRegisterVisible(true);
-                setFrameLoginVisible(false);
-            }
-        });
     }
 
     /**
@@ -85,5 +69,43 @@ public class LoginForm extends JFrame {
     */
     public void setFrameLoginVisible(Boolean visible){
         setVisible(visible);
+    }
+
+    public JButton getLoginButton() {
+        return loginButton;
+    }
+
+    public JButton getRegisterButton() {
+        return registerButton;
+    }
+
+    class LoginEventListener implements ActionListener {
+        /**
+         * Invoked when an action occurs.
+         *
+         * @param e
+         */
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            String username = userText.getText();
+            String userpassword = String.valueOf(passwordText.getPassword());
+            WeChatForm weChatForm = new WeChatForm();
+            weChatForm.setFrameWeChatVisible(true);
+            dispose();
+        }
+    }
+
+    class RegisterEventListener implements ActionListener {
+        /**
+         * Invoked when an action occurs.
+         *
+         * @param e
+         */
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            RegisterForm registerForm = new RegisterForm();
+            registerForm.setFrameRegisterVisible(true);
+            dispose();
+        }
     }
 }
